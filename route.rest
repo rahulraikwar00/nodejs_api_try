@@ -1,0 +1,32 @@
+
+
+
+GET http://localhost:3000/subscribers
+
+###
+
+GET  http://localhost:3000/subscribers/63de87dbd41d06a6d58819b5
+
+###
+
+POST http://localhost:3000/subscribers
+Content-Type: application/json
+
+{
+    "name":"amzoing perspon",
+    "subscribeToChannel":"Rahul Raikwar"
+}
+
+###
+
+DELETE http://localhost:3000/subscribers/63de834bc2cbbaf23ca3ff84
+
+### 
+
+PATCH http://localhost:3000/subscribers/63de87dbd41d06a6d58819b5
+Content-Type: application/json
+
+{
+    "name" :"new name",
+    "subscribeToChannel": "mr beast"
+}
